@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+// import hide from "../../assets/hide.svg";
 import { ReactComponent as Hide } from "../../assets/hide.svg";
 import { ReactComponent as Maximize } from "../../assets/maximize.svg";
 import { ReactComponent as Close } from "../../assets/close.svg";
@@ -16,6 +17,12 @@ class Header extends React.Component {
         <div className="toolbar-container">
           <div className="toolbar-item">
             <Hide className="toolbar-item-icon" />
+          </div>
+          <div className="toolbar-item">
+            <Maximize className="toolbar-item-icon" />
+          </div>
+          <div className="toolbar-item">
+            <Close className="toolbar-item-icon" />
           </div>
         </div>
       </header>

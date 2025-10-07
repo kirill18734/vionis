@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   border: 1px solid;
 }
 nav {
@@ -14,4 +14,16 @@ nav {
   padding: 0.5em;
   text-align: center;
   border: 1px solid;
+}
+.toolbar-container {
+  display: flex;
+  align-items: center;
+}
+.toolbar-item {
+  display: flex;
+  align-items: center;
+}
+.toolbar-item-icon {
+  width: 2.8em;
+  height: 2.8em;
 }
