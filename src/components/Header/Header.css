@@ -2,24 +2,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #000000;
+  border: 1px solid;
 }
 nav {
   display: flex;
   align-items: center;
+  border: 1px solid;
 }
+
 .menu-item {
-  padding: 0.3em;
-}
-.toolbar-container {
-  display: flex;
-}
-
-.toolbar-item-icon {
-  width: 2em;
-  height: 2em;
-}
-
-.toolbar-item {
-  display: flex;
+  padding: 0.5em;
+  text-align: center;
+  border: 1px solid;
 }
