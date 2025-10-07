@@ -1,7 +1,10 @@
 :root {
-  font-family: "Avenir";
+  font-family: "Arial";
   --dark-gray: #616161;
   --gray: #e0e0e0;
+}
+* {
+  box-sizing: border-box;
 }
 
 html,

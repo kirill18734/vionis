@@ -1,30 +1,32 @@
 import React from "react";
 import "./Header.css";
-import hideIcon from "../../assets/hide.svg";
-import maximizeIcon from "../../assets/maximize.svg";
-import closeIcon from "../../assets/close.svg";
+import { ReactComponent as Hide } from "../../assets/Hide.svg";
+import { ReactComponent as Maximize } from "../../assets/Maximize.svg";
+import { ReactComponent as Close } from "../../assets/Close.svg";
 
 class Header extends React.Component {
   render() {
     return (
-      <div className="header-container">
-        <div className="menu-container">
+      <header>
+        <nav>
           <div className="menu-item">Команды</div>
           <div className="menu-item">Настройки</div>
           <div className="menu-item">Журнал</div>
-        </div>
+        </nav>
         <div className="toolbar-container">
           <div className="toolbar-item">
-            <img src={hideIcon} className="toolbar-item-icon" alt="" />
+            <Hide className="toolbar-item-icon" />
           </div>
           <div className="toolbar-item">
-            <img src={maximizeIcon} className="toolbar-item-icon" alt="" />
+            {/* <Maximize className="toolbar-item-icon" /> */}
+            {/* <img src={maximizeIcon} className="toolbar-item-icon" alt="" /> */}
           </div>
           <div className="toolbar-item">
-            <img src={closeIcon} className="toolbar-item-icon" alt="" />
+            {/* <Close className="toolbar-item-icon" /> */}
+            {/* <img src={closeIcon} className="toolbar-item-icon" alt="" /> */}
           </div>
         </div>
-      </div>
+      </header>
     );
   }
 }
