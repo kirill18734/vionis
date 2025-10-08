@@ -1,9 +1,17 @@
 import React from "react";
 import "./Content.css";
+import Commands from "../../pages/Tabs/Commands/Commands";
+import Settings from "../../pages/Tabs/Settings/Settings";
 
 class Content extends React.Component {
   render() {
-    return <main></main>;
+    const { activeTab } = this.props;
+    return (
+      <main>
+        {activeTab == "commands" && <Commands />}
+        {activeTab == "settings" && <Settings />}
+      </main>
+    );
   }
 }
 

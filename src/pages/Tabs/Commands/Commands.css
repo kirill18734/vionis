@@ -1,0 +1,15 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-list-collections {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+}
+.main-list-value-collactions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}

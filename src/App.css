@@ -3,9 +3,6 @@
   --dark-gray: #616161;
   --gray: #e0e0e0;
 }
-* {
-  box-sizing: border-box;
-}
 
 html,
 body {

@@ -1,29 +1,33 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: start;
-  border: 1px solid;
+  flex-wrap: wrap;
+  border-bottom: 1px solid;
 }
+
 nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  border: 1px solid;
 }
 
 .menu-item {
   padding: 0.5em;
-  text-align: center;
-  border: 1px solid;
 }
+
 .toolbar-container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 }
+
 .toolbar-item {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 }
+
 .toolbar-item-icon {
-  width: 2.8em;
-  height: 2.8em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 2.5em;
+  height: auto;
 }
